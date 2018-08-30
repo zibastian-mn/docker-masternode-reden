@@ -20,7 +20,7 @@ docker run -d --restart=unless-stopped \
 Monitoring
 ---
 ```sh
-docker run <CONTAINER_NAME> nodemon
+docker run -ti <CONTAINER_NAME> nodemon
 ```
 
 ---
